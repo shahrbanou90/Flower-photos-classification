@@ -4,7 +4,7 @@
 ### What does the project do
 This code is about building a classification model for classifying the images of five type of flowers  **daisy**, **dandelion**, **roses**, **sunflowers**, **tulips**.
 The Convolutional Neural Network as a deep learning algorithm was used for building the model.
-In the first stage, the model was built on 3600 dataset. The results if the accuracy and loss showed that the training accuracy is linearly increasing over time,
+In the first stage, the model was built on 3670 dataset. The results if the accuracy and loss showed that the training accuracy is linearly increasing over time,
 whereas validation accuracy stalls around 60 % in the training process. This is a sign of overfitting where the difference between training and validation accuracy is noticeable.
 Overfitting can happen due to several reasons. One of them which is the case in this example is the small number of training dataset. 
 It caused the model learn from noises or unwanted details of the training dataset. In this case, the model has a difficult time generalizing on a new dataset.
